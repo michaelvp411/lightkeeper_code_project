@@ -1,0 +1,19 @@
+{
+    "name": "charty",
+    "version": "1.0.0",
+    "main": "app.py",
+    "private": true,
+    "ignore": [
+      "**/.*",
+      "node_modules",
+      "bower_components",
+      "test",
+      "tests"
+    ],
+    "dependencies": {
+      "jquery": "3.2.1",
+      "popper.js": "1.12.9",
+      "bootstrap": "4.0.0",
+      "d3": "5.0.0"
+    }
+  }

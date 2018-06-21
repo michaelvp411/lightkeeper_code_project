@@ -1,0 +1,16 @@
+[Unit]
+Description=Flask web server for Charty web app.
+After=network.target
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+User=ubuntu
+Group=ubuntu
+ExecStart=/usr/bin/python /home/ubuntu/Code/lib/lkopscodetest/app.py
+Restart=on-failure
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
